@@ -1,0 +1,10 @@
+I attempted to get retrieve the data directly from Bigquery
+
+
+%%bigquery
+SELECT
+*
+,
+FROM `bigquery-public-data.chicago_taxi_trips.taxi_trips`
+
+However, it failed, the data was too large for Jupyter to handle.
